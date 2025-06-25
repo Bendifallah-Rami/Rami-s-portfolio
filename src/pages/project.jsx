@@ -69,7 +69,7 @@ const Project = () => {
     {
       id: 2,
       title: "Datahack website",
-      description: "Application that shows weather forecasts using a third-party API",
+      description: "CSE Club website to support DATAHACK event registration.",
       tech: ["next", "tailwind", "express", "mongodb"],
       imageUrl: "/Card - Element-desktop.png",
       demoUrl: "https://datahack-2k25.cse.club/",
