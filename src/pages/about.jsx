@@ -557,7 +557,7 @@ const About = () => {
             <div className="relative z-10">
               <img
                 className="profile-image rounded-xl w-full h-auto shadow-md dark:shadow-cyan-500/20"
-                src="public/5967418000921446177.jpg"
+                src="/5967418000921446177.jpg"
                 alt="Rami's Profile"
               />
             </div>
