@@ -274,7 +274,7 @@ const Home = () => {
             }}
           >
             <img
-              src="public/_6dfb0a40-d7bd-4865-a2b3-38a70db160e2-removebg-preview.png"
+              src="/_6dfb0a40-d7bd-4865-a2b3-38a70db160e2-removebg-preview.png"
               alt="Logo"
               className="w-[60px] h-[60px] filter  transition-all duration-300"
             />
