@@ -52,7 +52,7 @@ const Project = () => {
       title: "ESI FLOW",
       description: "web app for managing technical issues in academic environments.",
       tech: ["next", "tailwind", "LocalStorage", "tailwind", "express", "postgresql"],
-      imageUrl: "public/5972326491410778784.jpg",
+      imageUrl: "/5972326491410778784.jpg",
       demoUrl: "https://esi-flow.vercel.app/",
       codeUrl: "https://github.com/Bendifallah-Rami/esi_flow_back",
       detailedDescription:
@@ -71,7 +71,7 @@ const Project = () => {
       title: "Datahack website",
       description: "Application that shows weather forecasts using a third-party API",
       tech: ["next", "tailwind", "express", "mongodb"],
-      imageUrl: "public/Card - Element-desktop.png",
+      imageUrl: "/Card - Element-desktop.png",
       demoUrl: "https://datahack-2k25.cse.club/",
       codeUrl: "#",
       detailedDescription:
@@ -87,7 +87,7 @@ const Project = () => {
       title: "Quote APP",
       description: "Quote App delivers random inspirational quotes made by users.",
       tech: ["HTML", "CSS", "JavaScript","express","mongodb","ejs",],
-      imageUrl: "public/Card - Element-desktop.png",
+      imageUrl: "/Card - Element-desktop.png",
       demoUrl: "#",
       codeUrl: "https://github.com/midoriar/Quote.app",
       detailedDescription:
@@ -99,7 +99,7 @@ const Project = () => {
       title: "Portfolio Website",
       description: "A responsive portfolio showcasing web development skills",
       tech: ["React", "Tailwind", "Framer Motion","vite"],
-      imageUrl: "public/5972326491410778790.jpg",
+      imageUrl: "/5972326491410778790.jpg",
       demoUrl: "#",
       codeUrl: "https://github.com/Bendifallah-Rami/portfolio",
       detailedDescription:
