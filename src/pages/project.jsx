@@ -71,7 +71,7 @@ const Project = () => {
       title: "Datahack website",
       description: "CSE Club website to support DATAHACK event registration.",
       tech: ["next", "tailwind", "express", "mongodb"],
-      imageUrl: "/Card - Element-desktop.png",
+      imageUrl: "/Screenshot 2025-06-26 003954.png",
       demoUrl: "https://datahack-2k25.cse.club/",
       codeUrl: "#",
       detailedDescription:
