@@ -8,6 +8,7 @@ import Contact from "./pages/contact";
 import About from "./pages/about";
 import Slider from "./pages/slide";
 import { DarkModeProvider } from "./pages/darkModeContext";
+import Experience from "./pages/experiance";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Home />
           <About />
           <Skills />
+          <Experience />
           <Projects />
           <Slider />
           <Contact />
