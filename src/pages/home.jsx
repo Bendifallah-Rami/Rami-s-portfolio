@@ -333,7 +333,7 @@ const Home = () => {
 
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="bg-transparent text-white dark:text-gray-200 p-3 rounded-full hover:bg-white/10 transition-all duration-300"
+              className="bg-transparent text-white dark:text-gray-100 p-3 rounded-full hover:bg-white/10 transition-all duration-300"
               style={{
                 animation: isVisible ? "navSlideDown 1.0s cubic-bezier(0.68, -0.55, 0.265, 1.55) both 0.3s" : "none",
                 opacity: isVisible ? 1 : 0,
