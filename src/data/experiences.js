@@ -45,7 +45,23 @@ export const experiences = [
     year: "2025",
     title: "Professional Development",
     description:
-      "Built ESI Flow, a full-stack platform to manage internal workflows at ESI. Gained deep experience across frontend, backend, authentication, and deployment while working with real-world requirements and technologies.",
+      "Built ESI Flow and food delivery, a full-stack platform to manage internal workflows at ESI. Gained deep experience across frontend, backend, authentication, and deployment while working with real-world requirements and technologies.",
+    position: "right",
+  },
+  {
+    id: 7,
+    year: "2025",
+    title: "Building Projects",
+    description:
+      "Built multiple full-stack applications including a restaurant management system, quiz management platform, and workflow tools. Developed strong skills in frontend, backend, authentication, and database design while turning real project ideas into working solutions.",
+    position: "left",
+  },
+  {
+    id: 8,
+    year: "2025",
+    title: "Web Master",
+    description:
+      "Joined CSE as Webmaster, maintaining the club’s official website and contributing to key projects like DataHack and event platforms. Gained deep experience across frontend, backend, authentication, and deployment while working within a collaborative organization.",
     position: "right",
   },
 ]
