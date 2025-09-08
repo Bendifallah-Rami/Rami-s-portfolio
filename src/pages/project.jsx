@@ -148,42 +148,14 @@ const Project = () => {
             transform: translateY(0);
           }
         }
-
-        @keyframes darkGlow {
-          0%, 100% {
-            box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
-          }
-          50% {
-            box-shadow: 0 0 30px rgba(6, 182, 212, 0.5);
-          }
-        }
-
-        @keyframes darkCardGlow {
-          0%, 100% {
-            box-shadow: 
-              0 25px 50px rgba(0, 0, 0, 0.4),
-              0 0 0 1px rgba(6, 182, 212, 0.2),
-              inset 0 1px 0 rgba(6, 182, 212, 0.1);
-          }
-          50% {
-            box-shadow: 
-              0 25px 50px rgba(0, 0, 0, 0.6),
-              0 0 0 1px rgba(6, 182, 212, 0.4),
-              inset 0 1px 0 rgba(6, 182, 212, 0.2);
-          }
-        }
         
         .project-card {
-          transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-          transform-style: preserve-3d;
-          perspective: 1000px;
-          will-change: transform, opacity, filter;
+          transition: all 0.3s ease;
         }
         
         .project-card:hover {
-          transform: translateY(-12px) rotateY(2deg) scale(1.02) !important;
-          box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-          filter: brightness(1.1) !important;
+          transform: translateY(-8px);
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
         }
 
         :global(.dark) .project-card {
@@ -192,8 +164,7 @@ const Project = () => {
         }
 
         :global(.dark) .project-card:hover {
-          animation: darkCardGlow 2s ease-in-out infinite;
-          filter: brightness(1.2) !important;
+          box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
         }
         
         .overlay-enter {
@@ -205,71 +176,49 @@ const Project = () => {
         }
         
         .tech-tag {
-          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+          transition: all 0.2s ease;
         }
         
         .tech-tag:hover {
-          transform: translateY(-3px) rotateX(5deg);
-          box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
         }
 
         :global(.dark) .tech-tag:hover {
-          box-shadow: 0 6px 20px rgba(6, 182, 212, 0.3);
-          animation: darkGlow 2s ease-in-out infinite;
+          box-shadow: 0 4px 12px rgba(6, 182, 212, 0.25);
         }
 
         .section-header {
-          transform-style: preserve-3d;
-          perspective: 1000px;
           will-change: transform, opacity, filter;
         }
 
         .section-description {
-          transform-style: preserve-3d;
-          perspective: 1000px;
           will-change: transform, opacity, filter;
         }
 
         .projects-grid {
-          perspective: 1200px;
+          /* Removed complex perspective */
         }
 
         .project-card img {
-          transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+          transition: all 0.3s ease;
         }
 
         .project-card:hover img {
-          transform: scale(1.15) rotateZ(1deg);
-        }
-
-        .project-card:hover {
-          box-shadow: 
-            0 25px 50px rgba(0, 0, 0, 0.2),
-            0 0 0 1px rgba(255, 255, 255, 0.1),
-            inset 0 1px 0 rgba(255, 255, 255, 0.2);
-        }
-
-        :global(.dark) .project-card:hover {
-          box-shadow: 
-            0 25px 50px rgba(0, 0, 0, 0.6),
-            0 0 0 1px rgba(6, 182, 212, 0.3),
-            inset 0 1px 0 rgba(6, 182, 212, 0.2);
+          transform: scale(1.05);
         }
 
         .show-more-btn {
-          transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-          transform-style: preserve-3d;
-          will-change: transform, opacity, filter;
+          transition: all 0.3s ease;
         }
 
         .show-more-btn:hover {
-          transform: translateY(-3px) scale(1.05);
-          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+          transform: translateY(-2px);
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
         }
 
         :global(.dark) .show-more-btn:hover {
-          box-shadow: 0 15px 30px rgba(6, 182, 212, 0.3);
-          animation: darkGlow 2s ease-in-out infinite;
+          box-shadow: 0 8px 20px rgba(6, 182, 212, 0.25);
         }
 
         * {

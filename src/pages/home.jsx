@@ -257,7 +257,8 @@ const Home = () => {
       `}</style>
 
       {/* Home Section */}
-      <section id="Home" className="min-h-screen flex flex-col">
+      <section id="Home" className="min-h-screen flex flex-col" itemScope itemType="https://schema.org/Person">
+        <h1 className="sr-only">Rami Bendifallah - Full Stack Developer Portfolio</h1>
         {/* Desktop Navigation */}
         <nav
           className="hidden md:flex justify-around items-center font-host fixed top-4 left-0 w-full z-50"
@@ -276,8 +277,9 @@ const Home = () => {
           >
             <img
               src="/_6dfb0a40-d7bd-4865-a2b3-38a70db160e2-removebg-preview.png"
-              alt="Logo"
+              alt="Rami Bendifallah - Full Stack Developer Logo"
               className="w-[60px] h-[60px] filter  transition-all duration-300"
+              loading="eager"
             />
           </div>
 

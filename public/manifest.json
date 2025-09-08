@@ -1,0 +1,28 @@
+{
+  "name": "Rami Bendifallah - Full Stack Developer",
+  "short_name": "Rami Portfolio",
+  "description": "Full-stack developer focused on backend development. Building scalable APIs, databases, and functional frontends.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "_6dfb0a40-d7bd-4865-a2b3-38a70db160e2-removebg-preview.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "_6dfb0a40-d7bd-4865-a2b3-38a70db160e2-removebg-preview.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["portfolio", "developer", "technology"],
+  "lang": "en",
+  "scope": "/",
+  "prefer_related_applications": false
+}
