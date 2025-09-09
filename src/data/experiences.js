@@ -45,7 +45,7 @@ export const experiences = [
     year: "2025",
     title: "Professional Development",
     description:
-      "Built ESI Flow and food delivery, a full-stack platform to manage internal workflows at ESI. Gained deep experience across frontend, backend, authentication, and deployment while working with real-world requirements and technologies.",
+      "Built ESI Flow, a full-stack platform to manage internal workflows at ESI. Gained deep experience across frontend, backend, authentication, and deployment while working with real-world requirements and technologies.",
     position: "right",
   },
   {
