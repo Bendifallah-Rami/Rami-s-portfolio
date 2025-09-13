@@ -3,7 +3,7 @@ export const expertiseList = [
   {
     title: "Frontend Development",
     description:
-      "I build clean, responsive, and interactive web interfaces using modern technologies like React, Next.js, and Tailwind CSS. I prioritize performance and accessibility to ensure your users have a seamless and delightful experience across all devices.",
+      "I build responsive, clean, and interactive web interfaces using modern technologies like React, Next.js, and Tailwind CSS. I prioritize performance and accessibility to ensure your users have a seamless and delightful experience across all devices.",
   },
   {
     title: "UI/UX Design",
