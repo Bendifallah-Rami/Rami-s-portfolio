@@ -60,16 +60,5 @@ export const skills = [
     color:
       "bg-orange-50 dark:bg-orange-900/20 border-orange-200 dark:border-orange-700/50 hover:bg-orange-100 dark:hover:bg-orange-800/30 text-orange-800 dark:text-orange-200",
   },
-  {
-    name: "Docker",
-    icon: "https://www.svgrepo.com/show/303161/docker.svg",
-    color:
-      "bg-sky-50 dark:bg-sky-900/20 border-sky-200 dark:border-sky-700/50 hover:bg-sky-100 dark:hover:bg-sky-800/30 text-sky-800 dark:text-sky-200",
-  },
-  {
-    name: "AWS",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-    color:
-      "bg-amber-50 dark:bg-amber-900/20 border-amber-200 dark:border-amber-700/50 hover:bg-amber-100 dark:hover:bg-amber-800/30 text-amber-800 dark:text-amber-200",
-  },
+ 
 ]
