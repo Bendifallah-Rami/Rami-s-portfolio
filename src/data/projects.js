@@ -55,7 +55,7 @@ export const allProjects = [
 },
 {
     id: 4,
-    title: "Portfolio Website",
+    title: "Portfolio Website v1",
     description: "A responsive portfolio showcasing web development skills",
     tech: ["React", "Tailwind", "Framer Motion","vite"],
     imageUrl: "/portfolio.png",
